@@ -1,6 +1,7 @@
 import React from 'react';
-import Sidebar from './components/Sidebar';
-import Navbar from './components/Navbar';
+import Sidebar from './componets/Sidebar.jsx';
+import Navbar from './componets/Navbar.jsx';
+
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
