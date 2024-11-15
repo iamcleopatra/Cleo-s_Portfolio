@@ -5,3 +5,9 @@
 .rounded-full {
     border-radius: 50%;
   }
+
+  .grid div:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+  }
+  
