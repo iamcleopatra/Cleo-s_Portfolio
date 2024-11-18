@@ -1,0 +1,30 @@
+#about {
+    background-color: #1a1a1d;
+    color: white;
+  }
+  
+  .tech-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 25px;
+    width: 120px; /* Increased width */
+    height: 120px; /* Increased height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .tech-card img {
+    width: 70%; /* Increased icon size */
+    height: 70%;
+    object-fit: contain;
+  }
+  
+  .tech-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
